@@ -35,8 +35,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  // String url = '';
-
   final urlController = TextEditingController();
 
   @override
@@ -128,7 +126,7 @@ class WebviewScreenState extends State<WebviewScreen> {
   @override
   initState() {
     super.initState();
-    if (Platform.isAndroid) WebView.platform = SurfaceAndroidWebView();
+    if (Platform.isAndroid) WebView.platform = AndroidWebView();
   }
 
   @override
