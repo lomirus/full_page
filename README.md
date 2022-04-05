@@ -1,16 +1,9 @@
-# fullpage
+# Full Page
 
-A new Flutter project.
+View Webpage in full screen mode. 
 
-## Getting Started
+This app is developed just for personal test use for web app. It's only tested on Android (minSdkVersion 21), so I am not sure if it works on iOS. 
 
-This project is a starting point for a Flutter application.
+## Screenshot
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Preview](./docs/preview.png)
