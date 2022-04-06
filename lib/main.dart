@@ -124,16 +124,14 @@ class WebviewScreen extends StatefulWidget {
 
 class WebviewScreenState extends State<WebviewScreen> {
   @override
-  initState() {
-    super.initState();
-    if (Platform.isAndroid) WebView.platform = AndroidWebView();
-  }
-
-  @override
   Widget build(BuildContext context) {
-    return WebView(
-      initialUrl: widget.url,
-      javascriptMode: JavascriptMode.unrestricted,
+    return Container(
+      // Remove white sides
+      color: Colors.black,
+      child: WebView(
+        initialUrl: widget.url,
+        javascriptMode: JavascriptMode.unrestricted,
+      ),
     );
   }
 }
